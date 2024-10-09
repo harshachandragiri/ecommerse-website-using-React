@@ -1,0 +1,47 @@
+form{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+form{
+    display: grid;
+    grid-template-columns:250px 250px ;
+    grid-template-rows: 40px 40px;
+    row-gap: 5px;
+}
+button{
+    padding: 7px 90px;
+   
+    margin-top: 10px;
+    background-color: rgba(0, 0, 255, 0.808);
+    color: white;
+    border: none;
+    font-size: larger;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+.AdminLogin{
+    width: 40vw;
+    height: 400px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px black;
+    
+}
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AdminLogin:hover{
+    transform: scale(1.2);
+    box-shadow: 10px 0px 20px black;
+    transition: 1s;
+}

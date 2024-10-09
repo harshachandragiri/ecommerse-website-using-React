@@ -1,0 +1,28 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+.page{
+    width: 60vw;
+    height: 400px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 0px 0px 20px black;
+}
+.Landingpage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page a{
+    text-decoration: none;
+    text-align: center;
+
+}
+img:hover{
+    transform: scale(1.3);
+}
