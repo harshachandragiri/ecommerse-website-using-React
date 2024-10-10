@@ -1,0 +1,15 @@
+{
+
+    "Admin":[
+        {    "id":1,
+            "userName":"Harsha",
+            "password":12345,
+            "email":"harshac1942@gmail.com"
+        },
+        {    "id":2,
+            "userName":"HarshaVardhan",
+            "password":12345,
+            "email":"harshachandragiri54.com"
+        }
+    ]
+}

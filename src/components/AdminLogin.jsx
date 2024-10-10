@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useEffect, useState} from 'react';
 import'../styles/Adminlogin.css';
 
 const AdminLogin = () => {
@@ -6,13 +6,17 @@ const AdminLogin = () => {
     console.log(UserName);
     let [Userpassword,setUserpassword]=useState("");
     console.log(Userpassword);
-    function Validation(){
-        if(UserName==='Jspiders'&&Userpassword==="12345"){
-            alert("SuccessFully Logged in ");
-        }else{
-            alert("Invalid Credentials");
+    
+    let [admin,setAdmin]=useState([]);
+    useEffect(()=>{
+        async function fetchAdmin(){
+            let data=await fetch()
+            let res=await data.json();
+            setAdmin(res);
+            
         }
-    }
+        fetchAdmin()
+    })
     
     return ( 
         <div className="AdminLogin">
@@ -26,7 +30,7 @@ const AdminLogin = () => {
 
             </form>
 
-            <button onClick={Validation} className='btnclas'>Login</button>
+            <button  className='btnclas'>Login</button>
             
         </div>
      );

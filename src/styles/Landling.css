@@ -11,6 +11,8 @@ img{
     align-items: center;
     border: 2px solid black;
     box-shadow: 0px 0px 20px black;
+    overflow: hidden;
+    transition: 2s
 }
 .Landingpage{
     height: 100vh;
