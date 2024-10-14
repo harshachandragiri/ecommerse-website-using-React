@@ -10,13 +10,14 @@ const AdminLogin = () => {
     let [admin,setAdmin]=useState([]);
     useEffect(()=>{
         async function fetchAdmin(){
-            let data=await fetch()
+            let data=await fetch('http://localhost:2005/Admin')
             let res=await data.json();
             setAdmin(res);
             
         }
         fetchAdmin()
     })
+
     
     return ( 
         <div className="AdminLogin">
@@ -30,7 +31,7 @@ const AdminLogin = () => {
 
             </form>
 
-            <button  className='btnclas'>Login</button>
+            <button  className='btnclas' onClick={AdminLogin}>Login</button>
             
         </div>
      );
