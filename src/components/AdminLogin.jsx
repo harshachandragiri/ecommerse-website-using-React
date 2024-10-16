@@ -10,13 +10,15 @@ const AdminLogin = () => {
     let [admin,setAdmin]=useState([]);
     useEffect(()=>{
         async function fetchAdmin(){
-            let data=await fetch('http://localhost:2005/Admin')
+            let data=await fetch(`http://localhost:2009/Admin`);
             let res=await data.json();
             setAdmin(res);
+            
             
         }
         fetchAdmin()
     })
+    // console.log(admin);
 
     
     return ( 
