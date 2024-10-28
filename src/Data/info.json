@@ -1,15 +1,28 @@
 {
-
-    "Admin":[
-        {    "id":1,
-            "userName":"Harsha",
-            "password":12345,
-            "email":"harshac1942@gmail.com"
-        },
-        {    "id":2,
-            "userName":"HarshaVardhan",
-            "password":12345,
-            "email":"harshachandragiri54.com"
-        }
-    ]
+  "Admin": [
+    {
+      "id": 1,
+      "userName": "Harsha",
+      "password": "Harsha",
+      "email": "harshac1942@gmail.com"
+    },
+    {
+      "id": 2,
+      "userName": "HarshaVardhan",
+      "password": 12345,
+      "email": "harshachandragiri54.com"
+    }
+  ],
+  "User": [],
+  "Product": [
+    {
+      "id": "69ec",
+      "category": "Mobile",
+      "name": "samsung a51",
+      "price": "9499",
+      "adress": "https://www.flipkart.com/tyy/4io/~cs-octki7dztp/pr?sid=tyy,4io&collection-tab-name=Samsung+A14+5G&param=57678&otracker=CLP_BannerX3&fm=organic&ppt=hp&ppn=homepage&ssid=93tglofu5s0000001730093171994",
+      "rating": "5",
+      "description": "6gb and 128gb"
+    }
+  ]
 }

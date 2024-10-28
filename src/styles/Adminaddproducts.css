@@ -1,0 +1,16 @@
+.addProductsDetailsC{
+    display: grid;
+    grid-template-columns:250px 250px ;
+}
+.AdminAddProducts{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+    font-size: larger;
+}
+.apsubmit{
+    height: 100px;
+    width: 200px;
+    margin-top:400px ;
+}
