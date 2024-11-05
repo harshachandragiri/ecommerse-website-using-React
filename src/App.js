@@ -6,6 +6,7 @@ import AdminSignup from "./components/AdminSignup"
 import AdminHomePage from "./components/AdminHomePage";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import UserHomePage from "./components/Userhomepage";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           {/* <Route path='/adminsignup' element={<AdminSignup/>} /> */}
           <Route path="/adminlogin/adminsignup" element={<AdminSignup />} />
           <Route path="/adminhomepage/*" element={<AdminHomePage />} />
+          <Route path="/userhomepage"  element={<UserHomePage/>}/>
 
         </Routes>
 

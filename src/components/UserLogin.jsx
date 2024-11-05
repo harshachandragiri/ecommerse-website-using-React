@@ -1,39 +1,62 @@
-import React,{useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/User.css';
+import { useNavigate } from 'react-router-dom';
 
 
 const UserLogin = () => {
-    let [UserName,setUsername]=useState("");
-    console.log(UserName);
-    let [Userpassword,setUserpassword]=useState("");
-    console.log(Userpassword);
+    let [uUserName, setuUsername] = useState("");
+    console.log(uUserName);
+    let [uUserpassword, setuUserpassword] = useState("");
+    console.log(uUserpassword);
 
-    
+    let [user,setUser]=useState([]);
 
-    function Validation1(){
-        if(UserName==='Harsha'&&Userpassword==="12345"){
-            alert("SuccessFully Logged in ");
-        }else{
-            alert("Invalid Credentials");
-            
+
+
+    useEffect(()=>{
+        async function fetchUser(){
+            let UserData=await fetch(`http://localhost:8000/User`)
+            let UserRes=await UserData.json();
+            setUser(UserRes);
         }
+        fetchUser();
+    
+    },[]);
+    console.log(user);
+
+    const navigate=useNavigate();
+
+
+    function Validation1() {
+        let val=user.filter((i)=>{
+            return i.email===uUserName && i.password===uUserpassword;
+        })
+        if(val.length>0){
+            alert("Success");
+            navigate('/UserHomePage')
+        }else{
+            alert("Failure")
+        }
+        
     }
-    return ( 
-    <div className="Userlogin">
-        <h1>UserLogin</h1>
-        <form action="">
-            <label htmlFor="">UserName:</label>
-            <input type="text" value={UserName} onChange={(e)=>{setUsername(e.target.value)}} placeholder='Enter UserName'/>
-            <label htmlFor="">Password:</label>
-            <input type="text" value={Userpassword} onChange={(e)=>{setUserpassword(e.target.value)}} placeholder='Enter Password' />
-            
+    return (
+        <div className="userloginContainer">
+            <div className="Userlogin">
+                <h1>UserLogin</h1>
+                <form action="">
+                    <label htmlFor="">UserName:</label>
+                    <input type="text" value={uUserName} onChange={(e) => { setuUsername(e.target.value) }} placeholder='Enter UserName' />
+                    <label htmlFor="">Password:</label>
+                    <input type="text" value={uUserpassword} onChange={(e) => { setuUserpassword(e.target.value) }} placeholder='Enter Password' />
 
-            </form>
 
-            <button onClick={Validation1} className='btnclas1'>Login</button>
+                </form>
 
-    </div> 
+                <button onClick={Validation1} className='btnclas1'>Login</button>
+
+            </div>
+        </div>
     );
 }
- 
+
 export default UserLogin;

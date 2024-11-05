@@ -1,28 +1,77 @@
 {
   "Admin": [
     {
-      "id": 1,
+      "id": "1",
       "userName": "Harsha",
       "password": "Harsha",
       "email": "harshac1942@gmail.com"
     },
     {
-      "id": 2,
+      "id": "2",
       "userName": "HarshaVardhan",
       "password": 12345,
       "email": "harshachandragiri54.com"
     }
   ],
-  "User": [],
+  "User": [
+    {
+      "id": "1",
+      "userName": "Harsha",
+      "password": "Harsha",
+      "email": "harshac1942@gmail.com"
+    },
+    {
+      "id": "2",
+      "userName": "HarshaVardhan",
+      "password": 12345,
+      "email": "harshachandragiri54.com"
+    }
+  ],
   "Product": [
     {
       "id": "69ec",
       "category": "Mobile",
       "name": "samsung a51",
       "price": "9499",
-      "adress": "https://www.flipkart.com/tyy/4io/~cs-octki7dztp/pr?sid=tyy,4io&collection-tab-name=Samsung+A14+5G&param=57678&otracker=CLP_BannerX3&fm=organic&ppt=hp&ppn=homepage&ssid=93tglofu5s0000001730093171994",
+      "adress": "https://rukminim2.flixcart.com/image/612/612/xif0q/mobile/p/3/1/galaxy-m35-5g-sm-m356b-samsung-original-imah3fe8swtqmxek.jpeg?q=70",
       "rating": "5",
       "description": "6gb and 128gb"
+    },
+    {
+      "id": "a125",
+      "category": "Mobile",
+      "name": "Moto Edge 50 Fusion",
+      "price": "24000.55",
+      "adress": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/l/q/-original-imah4k2srpwzpgpa.jpeg?q=70",
+      "rating": "7.5",
+      "description": "12Gb Ram 256 Gb Rom"
+    },
+    {
+      "id": "3d2d",
+      "category": "Mobile",
+      "name": "Nothing CMF-1",
+      "price": "15000",
+      "adress": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/8/v/0/-original-imah5ywfebrs9bfg.jpeg?q=70",
+      "rating": "8",
+      "description": "8Gb RAM 256 Gb ROM "
+    },
+    {
+      "id": "2d1e",
+      "category": "Mobile",
+      "name": "samsung s20fe",
+      "price": "30000",
+      "adress": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/4/f/r/-original-imah5ywfzzjzfkcn.jpeg?q=70",
+      "rating": "5",
+      "description": "8Gb RAM 128Gb ROM"
+    },
+    {
+      "id": "0451",
+      "category": "Mobile",
+      "name": "Iphone",
+      "price": "80000",
+      "adress": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70",
+      "rating": "8",
+      "description": "256Gb Rom"
     }
   ]
 }

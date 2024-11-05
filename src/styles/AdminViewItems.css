@@ -1,0 +1,17 @@
+.AdminViewItems{
+    padding:100px 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+    
+    
+}
+.sub_items{
+    border: 2px solid black;
+    padding: 30px;
+}
+.sub_items>img:hover{
+    scale: 1.3;
+    
+}
