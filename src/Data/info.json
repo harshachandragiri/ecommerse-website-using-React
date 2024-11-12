@@ -11,6 +11,13 @@
       "userName": "HarshaVardhan",
       "password": 12345,
       "email": "harshachandragiri54.com"
+    },
+    {
+      "id": "31b1",
+      "Aname": "Harshavardhan",
+      "Apswd": "12345",
+      "Acpswd": "12345",
+      "Aemail": "Harshavardhan"
     }
   ],
   "User": [
@@ -38,13 +45,13 @@
       "description": "6gb and 128gb"
     },
     {
-      "id": "a125",
       "category": "Mobile",
       "name": "Moto Edge 50 Fusion",
-      "price": "24000.55",
+      "price": "22000.55",
       "adress": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/l/q/-original-imah4k2srpwzpgpa.jpeg?q=70",
       "rating": "7.5",
-      "description": "12Gb Ram 256 Gb Rom"
+      "description": "12Gb Ram 256 Gb Rom",
+      "id": "a125"
     },
     {
       "id": "3d2d",
@@ -54,15 +61,6 @@
       "adress": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/8/v/0/-original-imah5ywfebrs9bfg.jpeg?q=70",
       "rating": "8",
       "description": "8Gb RAM 256 Gb ROM "
-    },
-    {
-      "id": "2d1e",
-      "category": "Mobile",
-      "name": "samsung s20fe",
-      "price": "30000",
-      "adress": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/4/f/r/-original-imah5ywfzzjzfkcn.jpeg?q=70",
-      "rating": "5",
-      "description": "8Gb RAM 128Gb ROM"
     },
     {
       "id": "0451",

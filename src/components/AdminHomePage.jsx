@@ -4,6 +4,7 @@ import AdminNavBar from "./AdminNavBar";
 import { Routes,Route } from "react-router-dom";
 import AdminViewItems from "./AdminViewItems";
 import AdminAddProducts from "./AdminAddProducts";
+import AdminUpdateProducts from "./AdminUpdateProduct";
 
 const AdminHomePage = () => {
     return ( 
@@ -13,6 +14,7 @@ const AdminHomePage = () => {
                 <Route path='/' element={<AdminDashBoard/>} />
                 <Route path='/viewproducts' element={<AdminViewItems/>} />
                 <Route path='/addproducts' element={<AdminAddProducts/>} />
+                <Route path='/adminupdateproduct/:id' element={<AdminUpdateProducts />} />
 
             </Routes>
             

@@ -1,7 +1,14 @@
+import UserDashBoard from "./UserDashboard";
+import UserFooter from "./UserFooter";
+import UserNavBar from "./UserNavBar";
+
 const UserHomePage = () => {
     return ( 
         <div className="UserHomePage">
-            <h1>User HomePage</h1>
+            <UserNavBar/>
+            <UserDashBoard/>
+            <UserFooter/>
+            
         </div>
      );
 }
