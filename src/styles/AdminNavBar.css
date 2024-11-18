@@ -1,5 +1,5 @@
 .AdminNavBar{
-    position:fixed;
+    position:relative;
     height: 70px;
     width: 99vw;
     background-color: blueviolet;

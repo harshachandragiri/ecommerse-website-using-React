@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/User.css';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const UserLogin = () => {
@@ -53,6 +54,7 @@ const UserLogin = () => {
                 </form>
 
                 <button onClick={Validation1} className='btnclas1'>Login</button>
+                <span>Click here to <Link to='/userlogin/usersignup' >SignUp</Link> </span>
 
             </div>
         </div>

@@ -3,18 +3,17 @@ import '../styles/AdminSignUp.css';
 import axios from 'axios';
 import { toast } from "react-toastify";
 
-const AdminSignup = () => {
-
+const UserSignUp = () => {
     let [username,setAName]=useState();
     let [password,setApswd]=useState();
     let [ConformPassword,setAcpswd]=useState();
     let [email,setAemail]=useState();
 
-    let newAdmin={username,password,ConformPassword,email};
+    let newUser={username,password,ConformPassword,email};
 
-    function adminSignUp(e){
+    function userSignUp(e){
         e.preventDefault();
-        axios.post('http://localhost:8000/Admin',newAdmin)
+        axios.post('http://localhost:8000/User',newUser)
         .then((res)=>{
             console.log(res);
             toast.success("Data added Successfully");
@@ -26,8 +25,11 @@ const AdminSignup = () => {
         })
     }
     
-    return (  
-       <div className="adminsignupcontainer">
+
+    return (
+        <div>
+            <h1>This Is User SignUp </h1>
+            <div className="adminsignupcontainer">
         {/* <h1>Adminsignup</h1> */}
         <div className="adminSignUpContainer">
             <img src="https://images.unsplash.com/photo-1559131109-dd8e844b455f?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
@@ -42,12 +44,25 @@ const AdminSignup = () => {
                 <input type="email" required value={email} onChange={(e)=>{setAemail(e.target.value)}}  placeholder="email" />
                 <label htmlFor="" ></label>
                
-               <input type="submit" onClick={adminSignUp} placeholder='Submit' />
+               <input type="submit" onClick={userSignUp} placeholder='Submit' />
             </form>
         </div>
        </div>
+
+        </div>
     );
 }
+
+export default UserSignUp;
+
+
+
+// const AdminSignup = () => {
+
+//        return (  
+       
+//     );
+// }
  
-export default AdminSignup;
+
 

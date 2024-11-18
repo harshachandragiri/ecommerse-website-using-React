@@ -1,7 +1,12 @@
+import {Link} from "react-router-dom";
+import "../styles/UserNavBar.css"
+
+
 const UserNavBar = () => {
     return ( 
         <div className="UserNavBar">
-            <h1>UserNavBAR</h1>
+            <Link to="/userhomepage/userviewitems">View Items</Link>
+            <Link to="/viewcart">View Cart</Link>
         </div>
      );
 }

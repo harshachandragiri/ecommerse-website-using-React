@@ -41,7 +41,7 @@ const AdminAddProducts = () => {
                             <option >Mobile</option>
                             <option >Mobile Accesssories</option>
                             <option >Electronics</option>
-                            <option >,Mobile</option>
+                            <option >Shoes</option>
 
                         </select>
                         <label htmlFor="">ProductName:</label>

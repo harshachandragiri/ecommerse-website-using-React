@@ -1,12 +1,11 @@
-.AdminViewItems{
-    padding:100px 50px;
+.userViewName{
+    
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr ;
     column-gap: 50px;
     row-gap: 50px;
-    
-    
-    
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .sub_items{
     border: 2px solid black;

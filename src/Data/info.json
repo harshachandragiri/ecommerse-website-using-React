@@ -18,6 +18,13 @@
       "Apswd": "12345",
       "Acpswd": "12345",
       "Aemail": "Harshavardhan"
+    },
+    {
+      "id": "4dfe",
+      "username": "hRSHA",
+      "password": "123456",
+      "ConformPassword": "234REW",
+      "email": "QWERWE@gmail.com"
     }
   ],
   "User": [
@@ -32,6 +39,13 @@
       "userName": "HarshaVardhan",
       "password": 12345,
       "email": "harshachandragiri54.com"
+    },
+    {
+      "id": "5f4c",
+      "Aname": "SaiChandan",
+      "Apswd": "Sai",
+      "Acpswd": "Sai",
+      "Aemail": "saichandan@gmail.com"
     }
   ],
   "Product": [
@@ -61,6 +75,33 @@
       "adress": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/8/v/0/-original-imah5ywfebrs9bfg.jpeg?q=70",
       "rating": "8",
       "description": "8Gb RAM 256 Gb ROM "
+    },
+    {
+      "id": "d3d4",
+      "category": "Shoes",
+      "name": "Basketball shoes",
+      "price": "7000",
+      "adress": "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/w/1/8/9-fq3681-500-9-nike-black-raspberry-aster-pink-hot-punch-original-imah4jyxsnshzh2z.jpeg?q=70",
+      "rating": "4.5",
+      "description": "Nike Shoes"
+    },
+    {
+      "id": "b178",
+      "category": "",
+      "name": "Running Shoes",
+      "price": "4000",
+      "adress": "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/h/4/s/11-fd6033-400-11-nike-baltic-blue-white-black-bright-crimson-original-imahfptjvcpmgbzg.jpeg?q=70",
+      "rating": "3.8",
+      "description": "Nike Shoes"
+    },
+    {
+      "id": "9414",
+      "category": "",
+      "name": "Tshirt",
+      "price": "799",
+      "adress": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/e/h/a/m-273497-the-souled-store-original-imah6b65paabrdvf.jpeg?q=70",
+      "rating": "4.2",
+      "description": "Veirdo Tshirt"
     }
   ]
 }
